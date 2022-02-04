@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/Client-api-dog" element={<Landingpage/>}/>
-          <Route path="/home" element={<Homepage/>}/>
-          <Route path="/dogDetail/:idRaza" element={<Dogdetail/>}/>
-          <Route path="/createDog" element={<Createdog/>}/>
+          <Route path="/Client-api-dog/home" element={<Homepage/>}/>
+          <Route path="/Client-api-dog/dogDetail/:idRaza" element={<Dogdetail/>}/>
+          <Route path="/Client-api-dog/createDog" element={<Createdog/>}/>
         </Routes>
     </BrowserRouter>
   );

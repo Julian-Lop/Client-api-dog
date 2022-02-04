@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {getDetail} from '../actions/index.js'
-import Loading from "./Loading.jsx";
+import Loading from "./Loading";
 import '../css/styles.css'
 import Navbar from './Navbar'
 

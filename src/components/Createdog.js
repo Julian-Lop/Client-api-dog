@@ -2,8 +2,8 @@ import React, {useEffect, useState} from "react";
 import { useDispatch, useSelector } from 'react-redux'
 import {getTemperaments,createDog} from '../actions/index.js'
 import '../css/styles.css'
-import Navbar from "./Navbar.jsx";
-import Alert from "./Alert.jsx";
+import Navbar from "./Navbar.js";
+import Alert from "./Alert.js";
 
 function Createdog(){
     const dispatch = useDispatch()

@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Julian-Lop.github.io/Client-api-dog",
+  "homepdage": "http://Julian-Lop.github.io/Client-api-dog",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.1",

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e14181a.css",
+    "main.js": "/static/js/main.d72a0aa6.js",
+    "static/js/377.3e5a2daf.chunk.js": "/static/js/377.3e5a2daf.chunk.js",
+    "static/media/huellas-2.jpg": "/static/media/huellas-2.08e466d778271b491a3a.jpg",
+    "static/media/labrador-retriever-g9f8027518_1920.jpg": "/static/media/labrador-retriever-g9f8027518_1920.0f541cc612e76ccf6ff0.jpg",
+    "index.html": "/index.html",
+    "main.3e14181a.css.map": "/static/css/main.3e14181a.css.map",
+    "main.d72a0aa6.js.map": "/static/js/main.d72a0aa6.js.map",
+    "377.3e5a2daf.chunk.js.map": "/static/js/377.3e5a2daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e14181a.css",
+    "static/js/main.d72a0aa6.js"
+  ]
+}

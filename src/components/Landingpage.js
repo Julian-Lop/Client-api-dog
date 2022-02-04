@@ -6,7 +6,7 @@ function Landingpage(){
         document.querySelector('.glass-left').className = 'mover-left'
         document.querySelector('.transparent-right').className = 'mover-right'
         setTimeout(() => {
-            window.location.href='Client-api-dog/home'
+            window.location.href='/home'
         }, 1500);
     }
 

@@ -7,7 +7,7 @@ function Navbar({title}){
     return (
         <div className='Navbar'>
                 <h1>{title}</h1>
-                <Link to="/home"><button>home</button></Link>
+                <Link to="/Client-api-dog/home"><button>home</button></Link>
         </div>
     )
 }

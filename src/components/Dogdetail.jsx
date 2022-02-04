@@ -2,9 +2,9 @@ import React, {useEffect} from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {getDetail} from '../actions/index.js'
-import Loading from "./Loading.js";
+import Loading from "./Loading.jsx";
 import '../css/styles.css'
-import Navbar from '../components/Navbar'
+import Navbar from './Navbar'
 
 function Dogdetail(){
     const stateraza = useSelector((state) => state.detalleRaza)

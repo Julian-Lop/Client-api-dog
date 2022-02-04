@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import {useDispatch, useSelector} from 'react-redux'
 import {getAllDogs,getTemperaments,filterRaza, getDetail} from '../actions/index.js'
-import InputBusqueda from './InputBusqueda.js'
-import Loading from "./Loading.js";
-import Paginado from "./Paginado.js"
+import InputBusqueda from './InputBusqueda.jsx'
+import Loading from "./Loading.jsx";
+import Paginado from "./Paginado.jsx"
 import '../css/styles.css'
 
 

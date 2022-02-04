@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Landingpage from './components/Landingpage.js'
-import Homepage from './components/Homepage.js'
-import Dogdetail from './components/Dogdetail.js'
-import Createdog from './components/Createdog.js';
+import Landingpage from './components/Landingpage.jsx'
+import Homepage from './components/Homepage.jsx'
+import Dogdetail from './components/Dogdetail.jsx'
+import Createdog from './components/Createdog.jsx';
 
 function App() {
   return (

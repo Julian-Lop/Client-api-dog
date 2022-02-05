@@ -23,8 +23,8 @@ function Landingpage(){
                 <h1>DOGS</h1>
                 <div className='contenedor'>
                     <a href="/home"></a>
-                    <Link to='/Client-api-dog/home'></Link>
-                    <button onClick={cambiar}>home</button>
+                    <Link to='/Client-api-dog/home'><button>home</button></Link>
+                    
                 </div> 
             </div>
         </div>

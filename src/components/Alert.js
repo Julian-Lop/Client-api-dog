@@ -7,7 +7,7 @@ function Alert({error}){
     if(error.hasOwnProperty('nombre') || error.hasOwnProperty('alturamin')
         || error.hasOwnProperty('alturamax') || error.hasOwnProperty('pesomin') || 
         error.hasOwnProperty('pesomax') || error.hasOwnProperty('vida')){
-            message = '¡No tiene los valores correctos!'
+            message = '¡No tiene los valores correctos! U.U'
     }
 
     return(

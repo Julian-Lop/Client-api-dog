@@ -3,13 +3,13 @@ import '../css/styles.css'
 import {Link} from 'react-router-dom'
 
 function Landingpage(){
-    const cambiar= ()=>{
-        document.querySelector('.glass-left').className = 'mover-left'
-        document.querySelector('.transparent-right').className = 'mover-right'
-        setTimeout(() => {
-            window.location.href='/Client-api-dog/home'
-        }, 1500);
-    }
+    // const cambiar= ()=>{
+    //     document.querySelector('.glass-left').className = 'mover-left'
+    //     document.querySelector('.transparent-right').className = 'mover-right'
+    //     setTimeout(() => {
+    //         window.location.href='/Client-api-dog/home'
+    //     }, 1500);
+    // }
 
     return (
         <div className='Landingpage'>

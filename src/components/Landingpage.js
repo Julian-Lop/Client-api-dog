@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/styles.css'
+import {Link} from 'react-router-dom'
 
 function Landingpage(){
     const cambiar= ()=>{
@@ -22,6 +23,7 @@ function Landingpage(){
                 <h1>DOGS</h1>
                 <div className='contenedor'>
                     <a href="/home"></a>
+                    <Link to='/Client-api-dog/home'></Link>
                     <button onClick={cambiar}>home</button>
                 </div> 
             </div>

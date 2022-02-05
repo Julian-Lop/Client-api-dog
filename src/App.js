@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import { Route, Routes} from 'react-router-dom'
 import Landingpage from './components/Landingpage.js'
 import Homepage from './components/Homepage.js'
 import Dogdetail from './components/Dogdetail.js'

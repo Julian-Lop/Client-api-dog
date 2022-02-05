@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Client-api-dog/static/css/main.41ba3098.css",
-    "main.js": "/Client-api-dog/static/js/main.8f7064d6.js",
+    "main.js": "/Client-api-dog/static/js/main.f9c8a508.js",
     "static/js/377.3e5a2daf.chunk.js": "/Client-api-dog/static/js/377.3e5a2daf.chunk.js",
     "static/media/huellas-2.jpg": "/Client-api-dog/static/media/huellas-2.08e466d778271b491a3a.jpg",
     "static/media/labrador-retriever-g9f8027518_1920.jpg": "/Client-api-dog/static/media/labrador-retriever-g9f8027518_1920.0f541cc612e76ccf6ff0.jpg",
     "index.html": "/Client-api-dog/index.html",
     "main.41ba3098.css.map": "/Client-api-dog/static/css/main.41ba3098.css.map",
-    "main.8f7064d6.js.map": "/Client-api-dog/static/js/main.8f7064d6.js.map",
+    "main.f9c8a508.js.map": "/Client-api-dog/static/js/main.f9c8a508.js.map",
     "377.3e5a2daf.chunk.js.map": "/Client-api-dog/static/js/377.3e5a2daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ba3098.css",
-    "static/js/main.8f7064d6.js"
+    "static/js/main.f9c8a508.js"
   ]
 }

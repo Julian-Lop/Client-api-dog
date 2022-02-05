@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/styles.css'
 
 function Landingpage(){
     const cambiar= ()=>{
         document.querySelector('.glass-left').className = 'mover-left'
         document.querySelector('.transparent-right').className = 'mover-right'
-        setTimeout(() => {
-            window.location.href='/Client-api-dog/home'
-        }, 1500);
+        // setTimeout(() => {
+        //     window.location.href='/Client-api-dog/home'
+        // }, 1500);
     }
 
     return (
@@ -22,7 +23,7 @@ function Landingpage(){
                 <h1>DOGS</h1>
                 <div className='contenedor'>
                     <a href="/home"></a>
-                    <button onClick={cambiar}>home</button>
+                    <Link to='/home'><button onClick={cambiar}>home</button> </Link>
                 </div> 
             </div>
         </div>

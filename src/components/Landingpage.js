@@ -15,7 +15,7 @@ function Landingpage(){
         <div className='Landingpage'>
             <div className='glass-left'>
                 <h1>PROYECTO</h1>
-                <h1>INDIVI</h1>
+                <h1>INDIvI</h1>
             </div>
             <div className='transparent-right'>
                 <h1 className='invisible'></h1>

@@ -8,7 +8,7 @@ function Carddog({id,raza,pesomin,pesomax,temperamento,image}){
         <div className="Carddog" key={id}>
             <div className='imageDog'><img src={image}/></div>
             <div className='info'>
-            <Link to={`Client-api-dog/dogDetail/${id}`}><h4>Raza: {raza}</h4></Link>
+            <Link to={`dogDetail/${id}`}><h4>Raza: {raza}</h4></Link>
                 <h4>Peso: {pesomin} - {pesomax} kg</h4>
                 <h4>Temperamento: {temperamento}</h4>
             </div>

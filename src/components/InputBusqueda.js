@@ -68,7 +68,7 @@ function InputBusqueda({setCurrentPage,setsearch,temp}){
                 ))}
             </select>
             <input type="text" value={searchn} onChange={onSearchChange} placeholder="Nombre de Raza"/>
-            <Link to="Client-api-dog/createDog"><button>Crear Perro</button></Link>
+            <Link to="/Client-api-dog/createDog"><button>Crear Perro</button></Link>
         </div>    
     )
 } 

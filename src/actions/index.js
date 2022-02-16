@@ -13,7 +13,7 @@ export function getAllDogs(dogname){
     return async function(dispatch){
         try {
             if(dogname){
-                return fetch(`https://backendog.herokuapp.com/dogs?name=${dogname}`)
+                return fetch(`https://apidogback.herokuapp.com/dogs?name=${dogname}`)
                 .then(response => response.json())
                 .then(json => {
                    return dispatch({type: OBTENER_DOGS, payload: json})
@@ -21,7 +21,7 @@ export function getAllDogs(dogname){
                     return dispatch({type: OBTENER_DOGS, payload: err})
                 })
             }else{
-                let json = await fetch(`https://backendog.herokuapp.com/dogs`)
+                let json = await fetch(`https://apidogback.herokuapp.com/dogs`)
                 .then(response => response.json())
                 return dispatch({type: OBTENER_DOGS, payload: json})
             }
@@ -33,7 +33,7 @@ export function getAllDogs(dogname){
 
 export function getTemperaments(){
     return async function(dispatch){
-        let json = await fetch('https://backendog.herokuapp.com/temperament')
+        let json = await fetch('https://apidogback.herokuapp.com/temperament')
         .then(response => response.json())
         return dispatch({type: OBTENER_TEMPERAMENTOS, payload: json})
     }
@@ -43,7 +43,7 @@ export function getDetail(idRaza){
     return function(dispatch){
         try {
             if(idRaza){
-                return fetch(`https://backendog.herokuapp.com/dogs/${idRaza}`)
+                return fetch(`https://apidogback.herokuapp.com/dogs/${idRaza}`)
                 .then(response => response.json())
                 .then(json => {
                     dispatch({type: OBTENER_INFO_RAZA, payload: json})
@@ -77,7 +77,7 @@ export function organizeByAlphabet(opcionAlphabet){
 
 export function createDog(attributesDog){
     return async function(dispatch){
-        let createdDog = await axios.post(`https://backendog.herokuapp.com/dog`,attributesDog)
+        let createdDog = await axios.post(`https://apidogback.herokuapp.com/dog`,attributesDog)
         console.log(createDog)
         return createdDog
     } 
